@@ -1,0 +1,11 @@
+node_modules
+*.log*
+.rest
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+server/.rest
+server/public/screenshots

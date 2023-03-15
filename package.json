@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.0.0-beta.7",
+    "nuxt": "^3.2.2",
+    "nuxt-simple-sitemap": "^0.5.8"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.1.96",
+    "@types/request": "^2.48.8",
+    "puppeteer": "^19.7.3",
+    "request": "^2.88.2",
+    "sass": "^1.57.1",
+    "vuetify": "^3.1.0"
+  }
+}
