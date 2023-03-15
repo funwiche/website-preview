@@ -7,7 +7,6 @@ const devices: any = {
   tablet: KnownDevices["iPad Mini"],
   desktop: KnownDevices["iPad Pro 11 landscape"],
 };
-
 export default defineEventHandler(async (event) => {
   const directory = "server/public/screenshots";
   if (!fs.existsSync(directory)) fs.mkdirSync(directory);
