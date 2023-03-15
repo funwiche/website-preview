@@ -1,6 +1,6 @@
 # Website Preview
 
-Scrap website for meta data and capture a website screenshot.
+Scrap website for meta data and capture a website screenshot. Rich user interface to make any kind of web-site preview and screenshots online for free with no limits.
 
 ## Setup
 
