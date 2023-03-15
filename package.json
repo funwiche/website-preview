@@ -1,4 +1,9 @@
 {
+  "name": "website-preview",
+  "version": "1.0.0.1",
+  "description": "This app enables you scrap websites for meta data and capture a website screenshot.",
+  "author": "funwi che",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "build": "nuxt build",
