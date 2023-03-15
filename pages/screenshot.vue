@@ -66,7 +66,7 @@ async function submit() {
       method: "POST",
       body: body.value,
     });
-    item.value = data;
+    item.value = data.screenshot;
     if (err) alert(err);
   } catch (error) {
     item.value = null;

@@ -31,7 +31,7 @@ export default defineEventHandler(async (event) => {
     await page.goto(url);
     await page.screenshot({ path: `server/public${filepath}`, fullPage });
     new Promise((r) => setTimeout(r, 2000));
-    return [filepath, null];
+    return [{ screenshot: filepath }, null];
   } catch (error) {
     console.log(error);
     return [null, "Internal server error"];

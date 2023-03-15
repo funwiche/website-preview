@@ -30,10 +30,6 @@ npm run dev
 
 Preview how your webpage will look on Google, Facebook, Twitter and more!
 
-## Screenshot
-
-Generate a full web-page screenshot for desktop, tablet or mobile
-
 ```javascript
 fetch("/api/meta", {
   method: "POST",
@@ -49,16 +45,20 @@ fetch("/api/meta", {
 
 ```json
 {
-  "name": "GoDaddy",
-  "origin": "https://godaddy.com",
-  "domain": "godaddy.com",
-  "title": "Noms de domaine, Sites Web, Outils de marketing en ligne et d’hébergement - GoDaddy FR",
-  "description": "Votre solution tout en un pour évoluer en ligne. Commencez un essai gratuit pour créer un site Web magnifique, acheter un nom de domaine, un hébergement rapide, un marketing en ligne et un support technique primé.",
-  "image": "https://img1.wsimg.com/cdn/Image/All/All/2/en-US/be0a3335-75ef-4e1a-b8c7-12a82706ce4d/og-godaddy.jpg",
-  "favicon": "https://godaddy.com//img6.wsimg.com/ux/favicon/favicon-16x16.png",
+  "name": "GitHub",
+  "origin": "https://github.com",
+  "domain": "github.com",
+  "title": "GitHub: Let’s build from here · GitHub",
+  "description": "GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.",
+  "image": "https://github.githubassets.com/images/modules/site/social-cards/campaign-social.png",
+  "favicon": "https://github.githubassets.com/favicons/favicon.svg",
   "pathname": "/"
 }
 ```
+
+## Screenshot
+
+Generate a full web-page screenshot for desktop, tablet or mobile
 
 #### Example code
 
@@ -79,6 +79,6 @@ fetch("/api/meta", {
 
 ```json
 {
-  "image": "/screenshots/github.com.png"
+  "screenshot": "/screenshots/desktop.github.com.png"
 }
 ```
